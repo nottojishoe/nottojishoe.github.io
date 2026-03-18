@@ -7,7 +7,7 @@
     <script>
       AFRAME.registerComponent('removing',{
         init: function () {
-          var el + this.el;
+          var el = this.el;
           el.addEventListener('mouseenter', function () { el.setAttribute('color','red');});
             el.addEventListener('mousleave', function () { el.setAttribute('color', 'firebrick');});
           el.addEventListener('click', function () { el.remove();});
